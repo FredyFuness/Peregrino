@@ -26,7 +26,8 @@ CHURCHES = [
         "phone": "2661-1979",
         "verified": False,
         "schedule_status": "broadcast_reported",
-        "schedule_note": "Horarios de misas transmitidas en vivo publicados en octubre de 2026; no representan necesariamente todas las misas presenciales. Confirmar con la Catedral.",
+        "schedule_note": "Transmisiones publicadas en octubre de 2026. Un colaborador menciona una posible misa presencial dominical a las 16:00, todavía sin confirmar. Consultar con la Catedral antes de asistir.",
+        "unconfirmed_masses": [{"days": "Domingo (posible misa presencial)", "times": ["16:00"]}],
         "chapel": False,
         "source_url": "https://santuariosenvivo.com/catedral-de-san-miguel/",
         "masses": [
