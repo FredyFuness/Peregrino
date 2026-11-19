@@ -1,5 +1,3 @@
-from dataclasses import dataclass
-
 # Horarios compartidos por colaborador local el 18/11/2026; pendientes de validación parroquial.
 CHURCHES = [
     {
@@ -27,10 +25,13 @@ CHURCHES = [
         "address": "Barrio El Centro, San Miguel, El Salvador",
         "phone": "2661-1979",
         "verified": False,
-        "schedule_status": "pending",
-        "schedule_note": "Horarios de misa pendientes de confirmar con la catedral.",
+        "schedule_status": "broadcast_reported",
+        "schedule_note": "Horarios de misas transmitidas en vivo publicados en octubre de 2026; no representan necesariamente todas las misas presenciales. Confirmar con la Catedral.",
         "chapel": False,
-        "source_url": "https://diocesisdesanmiguelsv.org/vicaria-reina-de-la-paz/",
-        "masses": [],
+        "source_url": "https://santuariosenvivo.com/catedral-de-san-miguel/",
+        "masses": [
+            {"days": "Lunes a sábado (transmisiones)", "times": ["07:00", "16:00"]},
+            {"days": "Domingo (transmisión)", "times": ["09:00"]},
+        ],
     },
 ]
