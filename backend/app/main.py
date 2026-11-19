@@ -19,6 +19,8 @@ class Church(BaseModel):
     chapel: bool = False
     source_url: str | None = None
     masses: list[dict] = Field(default_factory=list)
+    unconfirmed_masses: list[dict] = Field(default_factory=list)
+    opening_hours: list[dict] = Field(default_factory=list)
 
 # Registros iniciales: horarios comunitarios claramente identificados.
 
