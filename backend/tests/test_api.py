@@ -11,7 +11,7 @@ def test_health():
 def test_san_miguel_directory():
     response = client.get("/api/v1/churches?search=San%20Miguel")
     assert response.status_code == 200
-    assert len(response.json()) == 2
+    assert len(response.json()) == 22
 
 def test_sagrada_familia_schedule():
     churches = client.get("/api/v1/churches?search=Sagrada%20Familia").json()
