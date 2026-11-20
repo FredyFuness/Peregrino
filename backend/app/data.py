@@ -9,7 +9,11 @@ CHURCHES = [
         "phone": "2661-4298",
         "verified": False,
         "schedule_status": "community_reported",
-        "schedule_note": "Horario aportado por un colaborador local; confirmar con secretaría.",
+        "schedule_note": "Horario reciente aportado por un colaborador local. Una guía de 2022 también menciona domingo 08:00 y sábado 16:00; podrían estar desactualizados. Confirmar con secretaría.",
+        "unconfirmed_masses": [
+            {"days": "Domingo (referencia histórica de 2022)", "times": ["08:00"]},
+            {"days": "Sábado (referencia histórica de 2022)", "times": ["16:00"]},
+        ],
         "chapel": True,
         "source_url": "https://diocesisdesanmiguelsv.org/vicaria-san-miguel-arcangel/",
         "masses": [
@@ -26,7 +30,7 @@ CHURCHES = [
         "phone": "2661-1979",
         "verified": False,
         "schedule_status": "community_reported",
-        "schedule_note": "Horarios habituales aportados por el usuario con referencias a Facebook y Google; hay discrepancias en las misas dominicales. Confirmar con oficina parroquial antes de asistir. Los horarios de apertura también son orientativos.",
+        "schedule_note": "Horarios habituales aportados por el usuario con referencias a Facebook y Google. Las opciones alternativas proceden de una guía de 2022 y pueden estar desactualizadas. Confirmar con oficina parroquial antes de asistir. Apertura orientativa.",
         "chapel": False,
         "source_url": "https://www.facebook.com/100064638014323/posts/horarios-de-misas-en-catedral-bas%C3%ADlica/479692503615641/",
         "masses": [
@@ -34,7 +38,9 @@ CHURCHES = [
             {"days": "Domingo (horarios habituales reportados)", "times": ["05:30", "08:30", "17:00"]},
         ],
         "unconfirmed_masses": [
-            {"days": "Domingo (horarios alternativos reportados)", "times": ["06:00", "07:30", "09:00", "11:30", "16:00", "17:30"]},
+            {"days": "Domingo (referencia histórica de 2022)", "times": ["06:00", "07:30", "09:00", "11:30", "16:00", "17:30", "19:00"]},
+            {"days": "Lunes a viernes (referencia histórica de 2022)", "times": ["06:00", "07:00", "08:00", "16:00", "17:00"]},
+            {"days": "Sábado (referencia histórica de 2022)", "times": ["06:00", "07:00", "08:00", "16:00", "17:00"]},
         ],
         "opening_hours": [
             {"days": "Lunes", "open": "05:30", "close": "18:00"},
