@@ -25,3 +25,13 @@ Usar publicaciones de cuentas parroquiales identificables, preferiblemente recie
 2. Guardar la fecha de comprobación y las fuentes por cada horario en PostgreSQL.
 3. Extender la investigación por departamento, evitando duplicados.
 4. Agregar mapa con coordenadas comprobadas, sin geocodificar a ciegas.
+
+## Horarios históricos encontrados (no verificados actualmente)
+
+- Guía «Horario de Misas en San Miguel, El Salvador 2022»: https://misas.uachatec.com.mx/horario-de-misas-en-san-miguel/ . Contiene horarios de Catedral y Sagrada Familia. Se registran como referencias históricas alternativas, nunca como horarios confirmados.
+- La guía menciona una «Parroquia Inmaculada Concepción» sin identificar de forma inequívoca su ubicación en el texto accesible. **No** se asignaron sus horarios a la parroquia de colonia Carrillo ni a la de Quelepa para evitar confundir templos homónimos.
+- Publicación de Quelepa (04/09/2026): https://www.findglocal.com/SV/San-Miguel/101155347922976/Parroquia-Inmaculada-Concepci%C3%B3n-de-Mar%C3%ADa-Oficial . Advierte que el domingo correspondiente no habría misa de las 06:30; no prueba un horario semanal actual.
+
+### Revisión de Facebook
+
+La búsqueda pública de publicaciones con horarios para otras parroquias de San Miguel no permitió obtener suficientes horarios recurrentes atribuibles con certeza a cada templo. Se mantienen pendientes, en vez de copiar horarios de parroquias homónimas de San Salvador.
