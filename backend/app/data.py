@@ -9,11 +9,7 @@ CHURCHES = [
         "phone": "2661-4298",
         "verified": False,
         "schedule_status": "community_reported",
-        "schedule_note": "Horario reciente aportado por un colaborador local. Una guía de 2022 también menciona domingo 08:00 y sábado 16:00; podrían estar desactualizados. Confirmar con secretaría.",
-        "unconfirmed_masses": [
-            {"days": "Domingo (referencia histórica de 2022)", "times": ["08:00"]},
-            {"days": "Sábado (referencia histórica de 2022)", "times": ["16:00"]},
-        ],
+        "schedule_note": "Horarios proporcionados por un colaborador local; confirmar con secretaría.",
         "chapel": True,
         "source_url": "https://diocesisdesanmiguelsv.org/vicaria-san-miguel-arcangel/",
         "masses": [
