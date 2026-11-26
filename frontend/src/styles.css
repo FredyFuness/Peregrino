@@ -3,3 +3,8 @@
 .map-action { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 44px; padding: .55rem .85rem; margin: .65rem 0; border: 1px solid currentColor; border-radius: .75rem; color: inherit; text-decoration: none; font-weight: 600; max-width: 100%; box-sizing: border-box; }
 .map-action:hover { text-decoration: underline; }
 .map-action:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.results .result { display: grid; grid-template-columns: minmax(0,1fr); gap: 1rem; }
+.parish-visual { min-height: 110px; aspect-ratio:  3 / 1; border-radius: 12px; background: rgba(168,135,64,.12); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; }
+.parish-visual span { font-size: .75rem; opacity: .8; }
+.results .result > div { min-width: 0; overflow-wrap: anywhere; }
