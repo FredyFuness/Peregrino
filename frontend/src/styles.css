@@ -8,3 +8,5 @@
 .parish-visual { min-height: 110px; aspect-ratio:  3 / 1; border-radius: 12px; background: rgba(168,135,64,.12); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; }
 .parish-visual span { font-size: .75rem; opacity: .8; }
 .results .result > div { min-width: 0; overflow-wrap: anywhere; }
+
+.directory-filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:.75rem;margin:1rem 0 2rem}.directory-filters label{display:grid;gap:.3rem;font-size:.85rem}.directory-filters select,.directory-filters input,.directory-filters button{font:inherit;color:inherit;background:transparent;border:1px solid currentColor;border-radius:8px;padding:.65rem;min-width:0;min-height:44px}.directory-filters option{color:#172033;background:#fff}
